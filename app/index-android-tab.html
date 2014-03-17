@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>My App</title>
+
+    <link rel="stylesheet" href="bower_components/onsenui/build/css/onsenui.css">
+    <link rel="stylesheet" href="bower_components/onsenui/build/css/topcoat-mobile-onsen-android4_4.css">
+    <link rel="stylesheet" href="styles/app.css"/>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/onsenui/build/js/onsenui.js"></script>
+    <script src="scripts/app.js"></script>
+</head>
+
+<body>
+
+<ons-screen>
+
+    <ons-tabbar>
+        <ons-tabbar-item
+                active="true"
+                label="Home"
+                icon="home"
+                page="views/navigator1.html"></ons-tabbar-item>
+
+        <ons-tabbar-item
+                label="Shop"
+                icon="shopping-cart"
+                page="views/navigator2.html"></ons-tabbar-item>
+
+        <ons-tabbar-item
+                label="News"
+                icon="picture-o"
+                page="views/navigator3.html"></ons-tabbar-item>
+
+        <ons-tabbar-item
+                label="Settings"
+                icon="gear"
+                page="views/page4.html"></ons-tabbar-item>
+    </ons-tabbar>
+
+</ons-screen>
+
+</body>
+</html>

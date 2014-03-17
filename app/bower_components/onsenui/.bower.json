@@ -1,0 +1,62 @@
+{
+  "name": "OnsenUI",
+  "version": "1.0.3",
+  "homepage": "http://onsenui.io",
+  "authors": [
+    "Kruy Vanna <kruyvanna@gmail.com>",
+    "Mitsunori KUBOTA <anatoo.jp@gmail.com>"
+  ],
+  "description": "Web Component inspired HTML5 UI framework for building modern mobile application",
+  "main": [
+    "build/js/onsenui.js"
+  ],
+  "styles": [
+    "build/css/onsenui.css"
+  ],
+  "themes": [
+    "build/css/topcoat-mobile-onsen-blue.css",
+    "build/css/topcoat-mobile-onsen-green.css",
+    "build/css/topcoat-mobile-onsen-orange.css",
+    "build/css/topcoat-mobile-onsen-pink.css",
+    "build/css/topcoat-mobile-onsen-purple.css",
+    "build/css/topcoat-mobile-onsen-yellow.css",
+    "build/css/topcoat-mobile-onsen-ios7.css",
+    "build/css/topcoat-mobile-onsen-android4_4.css"
+  ],
+  "keywords": [
+    "onsenui",
+    "angular",
+    "html5",
+    "cordova",
+    "phonegap",
+    "web",
+    "component",
+    "monaca"
+  ],
+  "dependencies": {
+    "angular": "~1.2.7"
+  },
+  "license": "Apache License, Version 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "component_demo",
+    "config",
+    "framework",
+    "project_templates",
+    "scripts",
+    "test",
+    "Gruntfile.js",
+    "plugin_info.json"
+  ],
+  "_release": "1.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.3",
+    "commit": "0a2de8b3316ab2a16fd959207b9b10215b2331b5"
+  },
+  "_source": "git://github.com/OnsenUI/OnsenUI.git",
+  "_target": "~1.0.3",
+  "_originalSource": "onsenui",
+  "_direct": true
+}
